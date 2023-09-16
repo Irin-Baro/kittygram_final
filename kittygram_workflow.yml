@@ -168,3 +168,5 @@ jobs:
         to: ${{ secrets.TELEGRAM_TO }}
         token: ${{ secrets.TELEGRAM_TOKEN }}
         message: Деплой Kittygram успешно выполнен!
+                 Изменения ${{ github.event.commits[0].message }} выполнены ${{ github.actor }}.
+                 Подробнее https://github.com/${{ github.repository }}/commit/${{github.sha}}.
